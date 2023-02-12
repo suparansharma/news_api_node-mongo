@@ -1,3 +1,4 @@
 const User = require('./user');
-const models = {User};
+const News = require('./news');
+const models = {User,News};
 module.exports = models;
